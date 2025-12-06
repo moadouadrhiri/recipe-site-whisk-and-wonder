@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Whisk & Wonder</title>
+  <subtitle>Whisk & Wonder is your go-to destination for delightful baking recipes that inspire creativity in the kitchen. Discover easy-to-follow guides for everything from classic cookies to homemade bread.</subtitle>
+  <link href="https://whisk-and-wonder.example.com/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://whisk-and-wonder.example.com" rel="alternate" type="text/html"/>
+  <id>https://whisk-and-wonder.example.com/</id>
+  <updated>2025-12-06T07:46:22.159Z</updated>
+  
+</feed>

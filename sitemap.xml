@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://whisk-and-wonder.example.com/sitemap.xml</loc>
+    <lastmod>2025-12-06T07:46:22.158Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://whisk-and-wonder.example.com/sitemap-pages.xml</loc>
+    <lastmod>2025-12-06T07:46:22.158Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://whisk-and-wonder.example.com/sitemap-images.xml</loc>
+    <lastmod>2025-12-06T07:46:22.158Z</lastmod>
+  </sitemap>
+</sitemapindex>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Whisk & Wonder</title>
+    <link>https://whisk-and-wonder.example.com</link>
+    <description>Whisk & Wonder is your go-to destination for delightful baking recipes that inspire creativity in the kitchen. Discover easy-to-follow guides for everything from classic cookies to homemade bread.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Dec 2025 07:46:22 GMT</lastBuildDate>
+    <atom:link href="https://whisk-and-wonder.example.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://whisk-and-wonder.example.com/logo.png</url>
+      <title>Whisk & Wonder</title>
+      <link>https://whisk-and-wonder.example.com</link>
+    </image>
+    
+  </channel>
+</rss>
