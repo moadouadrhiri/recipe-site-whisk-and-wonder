@@ -2,22 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://whisk-and-wonder.example.com/sitemap.xml</loc>
-    <lastmod>2026-01-22T13:46:27.391Z</lastmod>
+    <lastmod>2026-01-22T13:54:11.097Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://whisk-and-wonder.example.com/sitemap-recipes.xml</loc>
-    <lastmod>2026-01-22T13:46:27.391Z</lastmod>
+    <lastmod>2026-01-22T13:54:11.097Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://whisk-and-wonder.example.com/sitemap-authors.xml</loc>
-    <lastmod>2026-01-22T13:46:27.391Z</lastmod>
+    <lastmod>2026-01-22T13:54:11.097Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://whisk-and-wonder.example.com/sitemap-images.xml</loc>
-    <lastmod>2026-01-22T13:46:27.391Z</lastmod>
+    <lastmod>2026-01-22T13:54:11.097Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://whisk-and-wonder.example.com/sitemap-news.xml</loc>
-    <lastmod>2026-01-22T13:46:27.391Z</lastmod>
+    <lastmod>2026-01-22T13:54:11.097Z</lastmod>
   </sitemap>
 </sitemapindex>
