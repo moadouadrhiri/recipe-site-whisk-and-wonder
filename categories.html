@@ -3,85 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Breads Recipes | alldayrecipes</title>
-  <meta name="description" content="Delicious breads recipes and ideas">
-  <link rel="canonical" href="https://whisk-and-wonder.example.com/category/breads">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://whisk-and-wonder.example.com/category/breads">
-  <meta property="og:title" content="Breads Recipes">
-  <meta property="og:description" content="Delicious breads recipes and ideas">
-  <meta property="og:site_name" content="alldayrecipes">
-  <meta property="og:locale" content="en_US">
-  
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="https://whisk-and-wonder.example.com/category/breads">
-  <meta name="twitter:title" content="Breads Recipes">
-  <meta name="twitter:description" content="Delicious breads recipes and ideas">
-  
-  <!-- Additional SEO -->
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="googlebot" content="index, follow, max-image-preview:large">
-  <meta name="bingbot" content="index, follow">
-  
-  <!-- Performance Hints -->
-  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-  <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <meta name="theme-color" content="#3b82f6">
+  <title>Recipe Categories | alldayrecipes</title>
+  <meta name="description" content="Browse all recipe categories at alldayrecipes. Find recipes organized by type, cuisine, and more.">
+  <link rel="canonical" href="https://whisk-and-wonder.example.com/categories">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "@id": "https://whisk-and-wonder.example.com/category/breads#webpage",
-  "url": "https://whisk-and-wonder.example.com/category/breads",
-  "name": "Breads Recipes",
-  "description": "Delicious breads recipes and ideas",
-  "isPartOf": {
-    "@id": "https://whisk-and-wonder.example.com/#website"
-  },
-  "about": {
-    "@type": "Thing",
-    "name": "Breads"
-  },
-  "mainEntity": {
-    "@type": "ItemList",
-    "itemListElement": []
-  }
-}
-</script>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://whisk-and-wonder.example.com"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Breads",
-      "item": "https://whisk-and-wonder.example.com/category/breads"
-    }
-  ]
-}
-</script>
   <style>
     
     :root {
@@ -310,23 +237,15 @@
       nav.active .search-box input { width: 100%; }
     }
   
-    
-    /* Category page specific styles */
-    .category-header { padding: 60px 20px; text-align: center; background: linear-gradient(135deg, #3b82f610 0%, #10b98110 100%); }
-    .category-header h1 { font-family: var(--font-accent); font-size: 2.5rem; color: var(--primary); margin-bottom: 15px; }
-    .category-header p { color: #666; max-width: 600px; margin: 0 auto; }
-    .recipes-section { padding: 60px 0; }
-    .recipes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; }
-    .recipe-card { background: white; overflow: hidden; transition: transform 0.2s, box-shadow 0.2s; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
-    .recipe-card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
-    .card-image { width: 100%; height: 200px; object-fit: cover; }
-    .card-image.placeholder { background: linear-gradient(45deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%); }
-    .card-content { padding: 20px; }
-    .card-content h3 { font-family: var(--font-accent); margin-bottom: 10px; }
-    .card-content h3 a { color: #333; text-decoration: none; }
-    .card-content h3 a:hover { color: var(--primary); }
-    .card-content p { color: #666; font-size: 0.9rem; margin-bottom: 15px; }
-    .card-meta { display: flex; gap: 15px; color: #999; font-size: 0.85rem; }
+    .categories-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; padding: 40px 0; }
+    .category-card { display: block; background: white; border-radius: 12px; overflow: hidden; text-decoration: none; transition: all 0.3s; border: 1px solid #eee; }
+    .category-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+    .category-image { height: 180px; background-size: cover; background-position: center; position: relative; }
+    .category-image::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.4)); }
+    .category-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, #3b82f620 0%, #10b98120 100%); }
+    .category-info { padding: 20px; text-align: center; }
+    .category-info h2 { font-family: var(--font-accent); font-size: 1.3rem; color: #333; margin-bottom: 8px; }
+    .category-info p { color: #888; font-size: 0.9rem; }
   </style>
 </head>
 <body>
@@ -353,15 +272,74 @@
     </div>
   </header>
   
-  <section class="category-header">
-    <h1>Breads</h1>
-    <p>Delicious breads recipes and ideas</p>
-  </section>
+  <div class="page-header">
+    <h1>Recipe Categories</h1>
+    <p>Browse recipes by category</p>
+  </div>
   
   <main class="container">
-    <section class="recipes-section">
-      <p style="text-align: center; color: #666; padding: 40px 0;">No recipes in this category yet.</p>
-    </section>
+    <div class="categories-grid">
+      
+    <a href="/category/desserts.html" class="category-card" data-testid="card-category-desserts">
+      <div class="category-image" style="background-image: url('couzintk.site/recipes/hero/05504d27-30f2-413d-8c0a-af6d514c28f2.png')">
+        
+      </div>
+      <div class="category-info">
+        <h2>Desserts</h2>
+        <p>10 recipes</p>
+      </div>
+    </a>
+
+    <a href="/category/breads.html" class="category-card" data-testid="card-category-breads">
+      <div class="category-image" style="">
+        <div class="category-placeholder"></div>
+      </div>
+      <div class="category-info">
+        <h2>Breads</h2>
+        <p>0 recipes</p>
+      </div>
+    </a>
+
+    <a href="/category/cookies.html" class="category-card" data-testid="card-category-cookies">
+      <div class="category-image" style="">
+        <div class="category-placeholder"></div>
+      </div>
+      <div class="category-info">
+        <h2>Cookies</h2>
+        <p>0 recipes</p>
+      </div>
+    </a>
+
+    <a href="/category/baked-goods.html" class="category-card" data-testid="card-category-baked-goods">
+      <div class="category-image" style="">
+        <div class="category-placeholder"></div>
+      </div>
+      <div class="category-info">
+        <h2>Baked Goods</h2>
+        <p>0 recipes</p>
+      </div>
+    </a>
+
+    <a href="/category/condiments.html" class="category-card" data-testid="card-category-condiments">
+      <div class="category-image" style="">
+        <div class="category-placeholder"></div>
+      </div>
+      <div class="category-info">
+        <h2>Condiments</h2>
+        <p>0 recipes</p>
+      </div>
+    </a>
+
+    <a href="/category/muffins.html" class="category-card" data-testid="card-category-muffins">
+      <div class="category-image" style="">
+        <div class="category-placeholder"></div>
+      </div>
+      <div class="category-info">
+        <h2>Muffins</h2>
+        <p>0 recipes</p>
+      </div>
+    </a>
+    </div>
   </main>
   
   

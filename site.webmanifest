@@ -1,7 +1,7 @@
 {
-  "name": "Whisk & Wonder",
-  "short_name": "Whisk & Wond",
-  "description": "Whisk & Wonder is your go-to destination for delightful baking recipes that inspire creativity in the kitchen. Discover easy-to-follow guides for everything from classic cookies to homemade bread.",
+  "name": "alldayrecipes",
+  "short_name": "alldayrecipe",
+  "description": "Whisk & Wonder is your go-to destination for delightful baking adventures, featuring a collection of scrumptious recipes that range from classic treats to innovative desserts. Discover the joy of baking with easy-to-follow instructions and tips for all skill levels.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

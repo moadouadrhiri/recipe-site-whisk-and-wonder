@@ -3,85 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Breads Recipes | alldayrecipes</title>
-  <meta name="description" content="Delicious breads recipes and ideas">
-  <link rel="canonical" href="https://whisk-and-wonder.example.com/category/breads">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://whisk-and-wonder.example.com/category/breads">
-  <meta property="og:title" content="Breads Recipes">
-  <meta property="og:description" content="Delicious breads recipes and ideas">
-  <meta property="og:site_name" content="alldayrecipes">
-  <meta property="og:locale" content="en_US">
-  
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="https://whisk-and-wonder.example.com/category/breads">
-  <meta name="twitter:title" content="Breads Recipes">
-  <meta name="twitter:description" content="Delicious breads recipes and ideas">
-  
-  <!-- Additional SEO -->
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="googlebot" content="index, follow, max-image-preview:large">
-  <meta name="bingbot" content="index, follow">
-  
-  <!-- Performance Hints -->
-  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-  <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <meta name="theme-color" content="#3b82f6">
+  <title>Search Recipes | alldayrecipes</title>
+  <meta name="description" content="Search through our collection of delicious recipes at alldayrecipes. Find exactly what you're looking for.">
+  <link rel="canonical" href="https://whisk-and-wonder.example.com/search">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "@id": "https://whisk-and-wonder.example.com/category/breads#webpage",
-  "url": "https://whisk-and-wonder.example.com/category/breads",
-  "name": "Breads Recipes",
-  "description": "Delicious breads recipes and ideas",
-  "isPartOf": {
-    "@id": "https://whisk-and-wonder.example.com/#website"
-  },
-  "about": {
-    "@type": "Thing",
-    "name": "Breads"
-  },
-  "mainEntity": {
-    "@type": "ItemList",
-    "itemListElement": []
-  }
-}
-</script>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://whisk-and-wonder.example.com"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Breads",
-      "item": "https://whisk-and-wonder.example.com/category/breads"
-    }
-  ]
-}
-</script>
   <style>
     
     :root {
@@ -310,23 +237,29 @@
       nav.active .search-box input { width: 100%; }
     }
   
-    
-    /* Category page specific styles */
-    .category-header { padding: 60px 20px; text-align: center; background: linear-gradient(135deg, #3b82f610 0%, #10b98110 100%); }
-    .category-header h1 { font-family: var(--font-accent); font-size: 2.5rem; color: var(--primary); margin-bottom: 15px; }
-    .category-header p { color: #666; max-width: 600px; margin: 0 auto; }
-    .recipes-section { padding: 60px 0; }
-    .recipes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; }
-    .recipe-card { background: white; overflow: hidden; transition: transform 0.2s, box-shadow 0.2s; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
-    .recipe-card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
-    .card-image { width: 100%; height: 200px; object-fit: cover; }
-    .card-image.placeholder { background: linear-gradient(45deg, #f0f0f0 25%, #e8e8e8 50%, #f0f0f0 75%); }
-    .card-content { padding: 20px; }
-    .card-content h3 { font-family: var(--font-accent); margin-bottom: 10px; }
-    .card-content h3 a { color: #333; text-decoration: none; }
-    .card-content h3 a:hover { color: var(--primary); }
-    .card-content p { color: #666; font-size: 0.9rem; margin-bottom: 15px; }
-    .card-meta { display: flex; gap: 15px; color: #999; font-size: 0.85rem; }
+    .search-container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+    .search-form { display: flex; gap: 15px; margin-bottom: 40px; }
+    .search-input { flex: 1; padding: 15px 20px; border: 2px solid #eee; border-radius: 10px; font-size: 1.1rem; transition: border-color 0.2s; }
+    .search-input:focus { outline: none; border-color: var(--primary); }
+    .search-btn { background: var(--primary); color: white; border: none; padding: 15px 30px; border-radius: 10px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+    .search-btn:hover { background: #10b981; }
+    .results-count { color: #666; margin-bottom: 20px; }
+    .no-results { text-align: center; padding: 60px 20px; color: #666; }
+    .no-results h3 { font-family: var(--font-accent); color: var(--primary); margin-bottom: 15px; }
+    .search-results { display: grid; gap: 20px; }
+    .result-card { display: flex; gap: 20px; background: white; border: 1px solid #eee; border-radius: 12px; overflow: hidden; transition: all 0.2s; }
+    .result-card:hover { box-shadow: 0 5px 20px rgba(0,0,0,0.08); border-color: var(--primary); }
+    .result-image { width: 200px; height: 150px; object-fit: cover; flex-shrink: 0; }
+    .result-content { padding: 20px; flex: 1; }
+    .result-content h3 { font-family: var(--font-accent); margin-bottom: 8px; }
+    .result-content h3 a { color: #333; text-decoration: none; }
+    .result-content h3 a:hover { color: var(--primary); }
+    .result-content p { color: #666; font-size: 0.95rem; margin-bottom: 10px; }
+    .result-meta { display: flex; gap: 15px; color: #999; font-size: 0.85rem; }
+    @media (max-width: 600px) {
+      .result-card { flex-direction: column; }
+      .result-image { width: 100%; height: 200px; }
+    }
   </style>
 </head>
 <body>
@@ -340,7 +273,7 @@
       <nav>
         <a href="/" >Home</a>
         <a href="/recipes.html" >Recipes</a>
-        <a href="/categories.html" style="color: var(--primary);">Categories</a>
+        <a href="/categories.html" >Categories</a>
         <a href="/authors.html" >Authors</a>
         <a href="/blog.html" >Blog</a>
         <div class="search-box">
@@ -353,15 +286,21 @@
     </div>
   </header>
   
-  <section class="category-header">
-    <h1>Breads</h1>
-    <p>Delicious breads recipes and ideas</p>
-  </section>
+  <div class="page-header">
+    <h1>Search Recipes</h1>
+    <p>Find your perfect recipe</p>
+  </div>
   
   <main class="container">
-    <section class="recipes-section">
-      <p style="text-align: center; color: #666; padding: 40px 0;">No recipes in this category yet.</p>
-    </section>
+    <div class="search-container">
+      <form class="search-form" onsubmit="performSearch(event)">
+        <input type="text" class="search-input" id="search-query" placeholder="Search for recipes..." autofocus data-testid="input-search-page">
+        <button type="submit" class="search-btn" data-testid="button-search-submit">Search</button>
+      </form>
+      
+      <div id="results-count" class="results-count"></div>
+      <div id="search-results" class="search-results"></div>
+    </div>
   </main>
   
   
@@ -422,5 +361,58 @@
       </div>
     </div>
   </footer>
+  
+  <script>
+    const recipes = [{"title":"Best Ever Cherry Muffins Recipe: Easy & Delicious","slug":"best-ever-cherry-muffins-recipe-easy-delicious","description":"These cherry muffins are a delightful treat, bursting with juicy cherries in every bite. Perfect for breakfast or a sweet snack, they're easy to make and sure to impress.","category":"Desserts","image":"couzintk.site/recipes/hero/05504d27-30f2-413d-8c0a-af6d514c28f2.png","prepTime":15,"cookTime":22,"difficulty":"easy"},{"title":"Best Blueberry Cornbread Recipe - Sweet, Moist, Perfect!","slug":"best-blueberry-cornbread-recipe-sweet-moist-perfect","description":"Discover the magic of blueberry cornbread—a delightful twist on a classic favorite. This recipe combines the sweetness of blueberries with the comforting texture of cornbread, perfect for any occasion.","category":"Desserts","image":"couzintk.site/recipes/hero/a0fd3635-8058-4723-b323-7bf19644dd3a.png","prepTime":15,"cookTime":30,"difficulty":"easy"},{"title":"Perfect White Bread Recipe for Bread Machine - Fluffy & Easy","slug":"perfect-white-bread-recipe-for-bread-machine-fluffy-easy","description":"This white bread recipe for bread machine delivers a fluffy, soft loaf that's perfect for sandwiches or toast. It's easy, reliable, and irresistibly delicious!","category":"Desserts","image":"couzintk.site/recipes/hero/d9948b6a-c2f7-4b90-87e7-1af05b73e2f1.png","prepTime":10,"cookTime":180,"difficulty":"easy"},{"title":"Irresistible Lemon Lush Dessert Recipe - A Citrus Delight","slug":"irresistible-lemon-lush-dessert-recipe-a-citrus-delight","description":"This Lemon Lush is zesty, creamy, and a perfect balance of flavors. It's the ultimate crowd-pleaser that will make your taste buds dance with delight.","category":"Desserts","image":"couzintk.site/recipes/hero/a983e9fa-6ba6-4302-bcd3-b6601b966f33.png","prepTime":30,"cookTime":20,"difficulty":"medium"},{"title":"Irresistible Peach Crisp with Canned Peaches - Easy Dessert","slug":"irresistible-peach-crisp-with-canned-peaches-easy-dessert","description":"Enjoy the comforting flavors of peach crisp with canned peaches. This easy, delightful dessert is perfect for any occasion and requires minimal effort.","category":"Desserts","image":"couzintk.site/recipes/hero/efc486aa-128f-4cc9-b4bb-a344a0ecf789.png","prepTime":15,"cookTime":40,"difficulty":"easy"},{"title":"Perfect Crema Chantilly Recipe: Whipped to Perfection","slug":"perfect-crema-chantilly-recipe-whipped-to-perfection","description":"Crema Chantilly is the ultimate whipped cream delight. Discover the secrets to making it perfectly airy and rich, every time.","category":"Desserts","image":"couzintk.site/recipes/hero/bb65236d-77f7-4c4b-b652-3b59dd5de640.png","prepTime":15,"cookTime":0,"difficulty":"easy"},{"title":"Perfect Cool Whip Pudding Frosting Recipe - Easy & Creamy Delight","slug":"perfect-cool-whip-pudding-frosting-recipe-easy-creamy-delight","description":"This Cool Whip pudding frosting combines creamy texture with delightful flavor, making it perfect for cakes and cupcakes. Discover why it's a family favorite!","category":"Desserts","image":"couzintk.site/recipes/hero/6d8a752c-2799-473a-b14d-20d01d860a95.png","prepTime":10,"cookTime":0,"difficulty":"easy"},{"title":"Irresistible Date Cookies Recipe - Soft & Chewy Treats","slug":"irresistible-date-cookies-recipe-soft-chewy-treats","description":"These date cookies are a delightful blend of chewy dates and buttery dough, creating a soft, sweet treat perfect for any occasion.","category":"Desserts","image":"couzintk.site/recipes/hero/a5e2a01f-0835-447f-8bbc-30aac343b9a6.png","prepTime":20,"cookTime":12,"difficulty":"easy"},{"title":"Devonshire Cream: A Classic Delight for Your Desserts","slug":"devonshire-cream-a-classic-delight-for-your-desserts","description":"Devonshire cream, a luxurious addition to any dessert, evokes the charm of English tea time. Experience its velvety richness with this classic recipe.","category":"Desserts","image":"couzintk.site/recipes/hero/93efd25d-8e1c-4b93-adb4-4aad314e035e.png","prepTime":10,"cookTime":10,"difficulty":"medium"},{"title":"Perfectly Flaky Tea Biscuits for Any Occasion","slug":"perfectly-flaky-tea-biscuits-for-any-occasion","description":"Our tea biscuits are a delightful treat, offering a flaky texture and subtle sweetness. Perfect for pairing with tea or coffee, they add a touch of homemade comfort to any gathering.","category":"Desserts","image":"couzintk.site/recipes/hero/9ee97b8d-fd4f-48ac-8804-e75e8e017e1f.png","prepTime":15,"cookTime":15,"difficulty":"easy"}];
+    
+    function performSearch(e) {
+      if (e) e.preventDefault();
+      const query = document.getElementById('search-query').value.toLowerCase().trim();
+      const resultsContainer = document.getElementById('search-results');
+      const countContainer = document.getElementById('results-count');
+      
+      if (!query) {
+        resultsContainer.innerHTML = '<div class="no-results"><h3>Enter a search term</h3><p>Type something in the search box above to find recipes.</p></div>';
+        countContainer.textContent = '';
+        return;
+      }
+      
+      const results = recipes.filter(r => 
+        r.title.toLowerCase().includes(query) ||
+        r.description.toLowerCase().includes(query) ||
+        r.category.toLowerCase().includes(query)
+      );
+      
+      countContainer.textContent = `Found ${results.length} recipe${results.length !== 1 ? 's' : ''}`;
+      
+      if (results.length === 0) {
+        resultsContainer.innerHTML = '<div class="no-results"><h3>No recipes found</h3><p>Try different keywords or browse our categories.</p></div>';
+        return;
+      }
+      
+      resultsContainer.innerHTML = results.map(r => `
+        <article class="result-card">
+          ${r.image ? `<img src="${r.image}" alt="${r.title}" class="result-image" loading="lazy">` : ''}
+          <div class="result-content">
+            <h3><a href="/recipe/${r.slug}.html">${r.title}</a></h3>
+            <p>${r.description.slice(0, 150)}${r.description.length > 150 ? '...' : ''}</p>
+            <div class="result-meta">
+              ${r.category ? `<span>${r.category}</span>` : ''}
+              ${r.prepTime + r.cookTime > 0 ? `<span>${r.prepTime + r.cookTime} min</span>` : ''}
+              <span>${r.difficulty}</span>
+            </div>
+          </div>
+        </article>
+      `).join('');
+    }
+    
+    // Check URL params on load
+    const urlParams = new URLSearchParams(window.location.search);
+    const queryParam = urlParams.get('q');
+    if (queryParam) {
+      document.getElementById('search-query').value = queryParam;
+      performSearch();
+    }
+  </script>
 </body>
 </html>

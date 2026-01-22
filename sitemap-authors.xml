@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://whisk-and-wonder.example.com/authors</loc>
+    <lastmod>2026-01-22T13:46:27.392Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://whisk-and-wonder.example.com/authors/seham</loc>
+    <lastmod>2026-01-22T13:46:27.392Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://images.unsplash.com/photo-1583394293214-28ez1c0f5c56?w=400</image:loc>
+        <image:title>Seham</image:title>
+        <image:caption>Seham brings you easy, mouthwatering recipes and uplifting stories, making the joy of cooking simple and enjoyable for everyone. With years of experience in home cooking and a passion for creating del</image:caption>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://whisk-and-wonder.example.com/authors/marcus-chen</loc>
+    <lastmod>2026-01-22T13:46:27.392Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=400</image:loc>
+        <image:title>Marcus Chen</image:title>
+        <image:caption>Marcus Chen is a classically trained chef with a passion for fusion cuisine. After training in Paris and working in top restaurants across Asia, Marcus brings a unique perspective to traditional recip</image:caption>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://whisk-and-wonder.example.com/authors/isabella-romano</loc>
+    <lastmod>2026-01-22T13:46:27.392Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?w=400</image:loc>
+        <image:title>Isabella Romano</image:title>
+        <image:caption>Born and raised in Tuscany, Isabella Romano grew up learning the art of Italian cooking from her grandmother. Her recipes celebrate authentic Italian flavors with a modern twist. Isabella believes tha</image:caption>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://whisk-and-wonder.example.com/authors/david-okonkwo</loc>
+    <lastmod>2026-01-22T13:46:27.392Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://images.unsplash.com/photo-1574966740793-953ad374e8ae?w=400</image:loc>
+        <image:title>David Okonkwo</image:title>
+        <image:caption>Chef David Okonkwo specializes in hearty comfort food with an African-American soul food influence. His recipes have been passed down through generations, and he loves sharing the warmth and love that</image:caption>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://whisk-and-wonder.example.com/authors/sophie-laurent</loc>
+    <lastmod>2026-01-22T13:46:27.392Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=400</image:loc>
+        <image:title>Sophie Laurent</image:title>
+        <image:caption>Sophie Laurent is a pastry chef with a special talent for creating stunning baked goods that taste as amazing as they look. Trained at Le Cordon Bleu, Sophie makes French pastry techniques accessible </image:caption>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://whisk-and-wonder.example.com/authors/raj-patel</loc>
+    <lastmod>2026-01-22T13:46:27.392Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://images.unsplash.com/photo-1622021142947-da7dedc7c39a?w=400</image:loc>
+        <image:title>Raj Patel</image:title>
+        <image:caption>Chef Raj Patel brings the vibrant flavors of Indian cuisine to your kitchen. Growing up in Mumbai, Raj learned traditional cooking methods from his mother and aunts. He now shares those beloved family</image:caption>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://whisk-and-wonder.example.com/authors/emma-thompson</loc>
+    <lastmod>2026-01-22T13:46:27.392Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400</image:loc>
+        <image:title>Emma Thompson</image:title>
+        <image:caption>Emma Thompson is passionate about healthy eating without sacrificing flavor. As a nutritionist turned chef, she creates recipes that are both delicious and good for you. Her focus on whole foods, plan</image:caption>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://whisk-and-wonder.example.com/authors/carlos-mendez</loc>
+    <lastmod>2026-01-22T13:46:27.392Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=400</image:loc>
+        <image:title>Carlos Mendez</image:title>
+        <image:caption>Chef Carlos Mendez brings the bold flavors of Latin American cuisine to your table. From his grandmother&apos;s Mexican mole to Brazilian churrasco, Carlos explores the diverse culinary traditions of Latin</image:caption>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://whisk-and-wonder.example.com/authors/aisha-johnson</loc>
+    <lastmod>2026-01-22T13:46:27.392Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400</image:loc>
+        <image:title>Aisha Johnson</image:title>
+        <image:caption>Aisha Johnson is a cookbook author and food blogger who specializes in quick weeknight dinners. As a busy mom of three, she understands the need for fast, family-friendly meals that don&apos;t compromise o</image:caption>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://whisk-and-wonder.example.com/authors/thomas-weber</loc>
+    <lastmod>2026-01-22T13:46:27.392Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400</image:loc>
+        <image:title>Thomas Weber</image:title>
+        <image:caption>Thomas Weber is a grill master and BBQ enthusiast from Texas. His expertise in smoking, grilling, and outdoor cooking has made him a go-to source for meat lovers everywhere. Whether it&apos;s a backyard ba</image:caption>
+      </image:image>
+  </url>
+</urlset>

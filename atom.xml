@@ -1,10 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Whisk & Wonder</title>
-  <subtitle>Whisk & Wonder is your go-to destination for delightful baking recipes that inspire creativity in the kitchen. Discover easy-to-follow guides for everything from classic cookies to homemade bread.</subtitle>
+  <title>alldayrecipes</title>
+  <subtitle>Whisk & Wonder is your go-to destination for delightful baking adventures, featuring a collection of scrumptious recipes that range from classic treats to innovative desserts. Discover the joy of baking with easy-to-follow instructions and tips for all skill levels.</subtitle>
   <link href="https://whisk-and-wonder.example.com/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://whisk-and-wonder.example.com" rel="alternate" type="text/html"/>
   <id>https://whisk-and-wonder.example.com/</id>
-  <updated>2025-12-06T07:46:22.159Z</updated>
+  <updated>2026-01-22T13:46:27.393Z</updated>
   
+  <entry>
+    <title><![CDATA[Best Ever Cherry Muffins Recipe: Easy & Delicious]]></title>
+    <link href="https://whisk-and-wonder.example.com/recipe/best-ever-cherry-muffins-recipe-easy-delicious" rel="alternate" type="text/html"/>
+    <id>https://whisk-and-wonder.example.com/recipe/best-ever-cherry-muffins-recipe-easy-delicious</id>
+    <published>2025-12-27T15:29:47.293Z</published>
+    <updated>2025-12-27T15:29:47.293Z</updated>
+    <summary><![CDATA[Discover the best cherry muffins recipe! Easy, delicious, and perfect for any occasion. Try it today and enjoy the delightful taste of fresh cherries.]]></summary>
+    <author>
+      <name>alldayrecipes</name>
+    </author>
+  </entry>
+  <entry>
+    <title><![CDATA[Best Blueberry Cornbread Recipe - Sweet, Moist, Perfect!]]></title>
+    <link href="https://whisk-and-wonder.example.com/recipe/best-blueberry-cornbread-recipe-sweet-moist-perfect" rel="alternate" type="text/html"/>
+    <id>https://whisk-and-wonder.example.com/recipe/best-blueberry-cornbread-recipe-sweet-moist-perfect</id>
+    <published>2025-12-27T15:28:32.894Z</published>
+    <updated>2025-12-27T15:28:32.894Z</updated>
+    <summary><![CDATA[Delicious blueberry cornbread that's perfectly moist and slightly sweet. An easy recipe with a twist. Try it today!]]></summary>
+    <author>
+      <name>alldayrecipes</name>
+    </author>
+  </entry>
+  <entry>
+    <title><![CDATA[Perfect White Bread Recipe for Bread Machine - Fluffy & Easy]]></title>
+    <link href="https://whisk-and-wonder.example.com/recipe/perfect-white-bread-recipe-for-bread-machine-fluffy-easy" rel="alternate" type="text/html"/>
+    <id>https://whisk-and-wonder.example.com/recipe/perfect-white-bread-recipe-for-bread-machine-fluffy-easy</id>
+    <published>2025-12-27T15:27:18.393Z</published>
+    <updated>2025-12-27T15:27:18.393Z</updated>
+    <summary><![CDATA[Discover the best white bread recipe for bread machine. Easy, fluffy, and delicious! Perfect for beginners. Try it now and enjoy homemade goodness.]]></summary>
+    <author>
+      <name>alldayrecipes</name>
+    </author>
+  </entry>
+  <entry>
+    <title><![CDATA[Irresistible Lemon Lush Dessert Recipe - A Citrus Delight]]></title>
+    <link href="https://whisk-and-wonder.example.com/recipe/irresistible-lemon-lush-dessert-recipe-a-citrus-delight" rel="alternate" type="text/html"/>
+    <id>https://whisk-and-wonder.example.com/recipe/irresistible-lemon-lush-dessert-recipe-a-citrus-delight</id>
+    <published>2025-12-27T15:26:06.239Z</published>
+    <updated>2025-12-27T15:26:06.239Z</updated>
+    <summary><![CDATA[Discover the best Lemon Lush recipe! A refreshing, creamy dessert perfect for any occasion. Try it now and impress your guests!]]></summary>
+    <author>
+      <name>alldayrecipes</name>
+    </author>
+  </entry>
+  <entry>
+    <title><![CDATA[Irresistible Peach Crisp with Canned Peaches - Easy Dessert]]></title>
+    <link href="https://whisk-and-wonder.example.com/recipe/irresistible-peach-crisp-with-canned-peaches-easy-dessert" rel="alternate" type="text/html"/>
+    <id>https://whisk-and-wonder.example.com/recipe/irresistible-peach-crisp-with-canned-peaches-easy-dessert</id>
+    <published>2025-12-27T15:24:53.593Z</published>
+    <updated>2025-12-27T15:24:53.593Z</updated>
+    <summary><![CDATA[Discover the best peach crisp with canned peaches. Simple, delicious, and perfect for any occasion. Try this recipe today!]]></summary>
+    <author>
+      <name>alldayrecipes</name>
+    </author>
+  </entry>
+  <entry>
+    <title><![CDATA[Perfect Crema Chantilly Recipe: Whipped to Perfection]]></title>
+    <link href="https://whisk-and-wonder.example.com/recipe/perfect-crema-chantilly-recipe-whipped-to-perfection" rel="alternate" type="text/html"/>
+    <id>https://whisk-and-wonder.example.com/recipe/perfect-crema-chantilly-recipe-whipped-to-perfection</id>
+    <published>2025-12-27T15:23:56.885Z</published>
+    <updated>2025-12-27T15:23:56.885Z</updated>
+    <summary><![CDATA[Learn how to make perfect crema chantilly with our easy recipe. Perfect for desserts, with tips for success. Try it now!]]></summary>
+    <author>
+      <name>alldayrecipes</name>
+    </author>
+  </entry>
+  <entry>
+    <title><![CDATA[Perfect Cool Whip Pudding Frosting Recipe - Easy & Creamy Delight]]></title>
+    <link href="https://whisk-and-wonder.example.com/recipe/perfect-cool-whip-pudding-frosting-recipe-easy-creamy-delight" rel="alternate" type="text/html"/>
+    <id>https://whisk-and-wonder.example.com/recipe/perfect-cool-whip-pudding-frosting-recipe-easy-creamy-delight</id>
+    <published>2025-12-27T15:22:57.871Z</published>
+    <updated>2025-12-27T15:22:57.871Z</updated>
+    <summary><![CDATA[Discover the ultimate Cool Whip pudding frosting recipe with a creamy, dreamy texture. Perfect for cakes and cupcakes. Try it today!]]></summary>
+    <author>
+      <name>alldayrecipes</name>
+    </author>
+  </entry>
+  <entry>
+    <title><![CDATA[Irresistible Date Cookies Recipe - Soft & Chewy Treats]]></title>
+    <link href="https://whisk-and-wonder.example.com/recipe/irresistible-date-cookies-recipe-soft-chewy-treats" rel="alternate" type="text/html"/>
+    <id>https://whisk-and-wonder.example.com/recipe/irresistible-date-cookies-recipe-soft-chewy-treats</id>
+    <published>2025-12-27T15:22:00.785Z</published>
+    <updated>2025-12-27T15:22:00.785Z</updated>
+    <summary><![CDATA[Discover the best date cookies recipe. Soft, chewy, and bursting with flavor. Perfect for any occasion! Try it today.]]></summary>
+    <author>
+      <name>alldayrecipes</name>
+    </author>
+  </entry>
+  <entry>
+    <title><![CDATA[Devonshire Cream: A Classic Delight for Your Desserts]]></title>
+    <link href="https://whisk-and-wonder.example.com/recipe/devonshire-cream-a-classic-delight-for-your-desserts" rel="alternate" type="text/html"/>
+    <id>https://whisk-and-wonder.example.com/recipe/devonshire-cream-a-classic-delight-for-your-desserts</id>
+    <published>2025-12-27T15:21:02.384Z</published>
+    <updated>2025-12-27T15:21:02.384Z</updated>
+    <summary><![CDATA[Learn how to make perfect Devonshire cream at home. Indulge in its rich, creamy texture with our step-by-step guide.]]></summary>
+    <author>
+      <name>alldayrecipes</name>
+    </author>
+  </entry>
+  <entry>
+    <title><![CDATA[Perfectly Flaky Tea Biscuits for Any Occasion]]></title>
+    <link href="https://whisk-and-wonder.example.com/recipe/perfectly-flaky-tea-biscuits-for-any-occasion" rel="alternate" type="text/html"/>
+    <id>https://whisk-and-wonder.example.com/recipe/perfectly-flaky-tea-biscuits-for-any-occasion</id>
+    <published>2025-12-27T15:20:07.166Z</published>
+    <updated>2025-12-27T15:20:07.166Z</updated>
+    <summary><![CDATA[Explore our tea biscuits recipe for perfectly flaky pastries. Easy to make, ideal for any tea party. Try it today!]]></summary>
+    <author>
+      <name>alldayrecipes</name>
+    </author>
+  </entry>
 </feed>
